@@ -15,7 +15,7 @@ int main()
     int count=0;
 
     do
-    {
+    {        cout << " Welcome to the number guess game\n Let's Start" << endl;
         cout << "Enter the  number " << endl;
         cin >> guess;
 
