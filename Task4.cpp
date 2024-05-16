@@ -12,6 +12,7 @@ int total=0;
 void add()
 {
     int n;
+    
     cout << "How many tasks do you want to add?" << endl;
     cin >> n;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -61,7 +62,7 @@ void m()
 int main()
 {
     int c;
-    cout << " <------   Welcome  to the TO-DO  List Manager  ------->" << endl;
+    cout << " <------   Welcome  to the TO-DO  List Manager  ------->" << endl<<" ( Limit upto 50 tasks)"<<endl;
 
     do
     {
